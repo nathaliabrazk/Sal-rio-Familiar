@@ -26,49 +26,59 @@ flex-direction: column;
 p{
     margin-top: 40px;
     color: #888287b0;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .linha {
-    border: 0.5px solid #888287b2;
+    border: 0.5px solid #888287b0;
     margin: 10px 0; /* Define a margem (espaço) acima e abaixo da linha */
 }
 
 table{
+    margin-top: 40px;
     border-collapse: collapse;
-    width: 400px;
-    height: 200px;
+    width: 950px;
+    height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 tr, td{
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid rgb(10, 9, 9);
+    font-size: 35px;
 }
 
-button{
-    margin-top: 20px;
-    background-color:rgb(52, 156, 156);
+button {
+    margin-top: 20px; /* Espaçamento acima do botão */
+    background-color: rgb(52, 156, 156);
     border-radius: 5px;
     font-size: 20px;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 60px;
     width: 350px;
-    box-shadow: 500 500 500px rgba(128, 128, 128, 0.5);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
     border: none;
-
+    display: block;
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona espaçamento abaixo do botão */
 }
 
 label{
-    color: #888287;
-    font-size: 20px;
+    color: #888287b0;
+    font-size: 40px;
+}
+
+input#salario {
+    margin-left: 912px; /* Adiciona um espaço à direita no elemento específico */
+    background-color: rgba(219, 216, 216, 0.411);
 }
 
 input{
-    margin-left: 50px;
-    background-color: rgba(187, 182, 182, 0.5);
-    height: 19px;
-    width: 16px;
+    margin-left: 40px;
+    background-color: rgba(219, 216, 216, 0.411);
+    height: 45px;
+    width: 40px;
     border: none;
+    align-items: center;
+    
 }
