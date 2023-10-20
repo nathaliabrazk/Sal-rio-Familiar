@@ -25,8 +25,13 @@ flex-direction: column;
 
 p{
     margin-top: 40px;
-    color: rgb(107, 105, 105);
-    font-size: 35px;
+    color: #888287b0;
+    font-size: 20px;
+}
+
+.linha {
+    border: 0.5px solid #888287b2;
+    margin: 10px 0; /* Define a margem (espaço) acima e abaixo da linha */
 }
 
 table{
@@ -38,7 +43,7 @@ table{
 
 tr, td{
     font-family: 'Times New Roman', Times, serif;
-    border: 2px solid rgb(77, 65, 65);
+    border: 2px solid rgb(10, 9, 9);
 }
 
 button{
@@ -47,12 +52,11 @@ button{
     border-radius: 5px;
     font-size: 20px;
     color: white;
-    align-items: center;
     text-align: center;
-    justify-content: center;
-    flex-direction: column;
     height: 50px;
     width: 350px;
+    box-shadow: 500 500 500px rgba(128, 128, 128, 0.5);
+    border: none;
 
 }
 
@@ -62,7 +66,9 @@ label{
 }
 
 input{
-    background-color: rgb(167, 159, 159);
-    height: 10px;
-    width: 10px;
+    margin-left: 50px;
+    background-color: rgba(187, 182, 182, 0.5);
+    height: 19px;
+    width: 16px;
+    border: none;
 }
