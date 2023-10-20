@@ -40,19 +40,21 @@ table{
     width: 950px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
 tr, td{
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid rgb(10, 9, 9);
     font-size: 35px;
+    padding: 20px;
 }
 
 button {
     margin-top: 20px;
-    background-color: rgb(52, 156, 156);
-    border-radius: 5px;
-    font-size: 20px;
+    background-color: rgb(50, 173, 173);
+    border-radius: 8px;
+    font-size: 25px;
     color: white;
     text-align: center;
     height: 60px;
@@ -61,12 +63,24 @@ button {
     border: none;
     display: block;
     margin: 20px auto; 
+    border-bottom: 4px solid rgba(100, 99, 99, 0.938);
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0 50px;
 }
 
 label{
     color: #888287b0;
     font-size: 40px;
 }
+
+input#empregado { 
+    background-color: rgba(219, 216, 216, 0.411); 
+    width: 100%; height: 45px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 35px; 
+    padding: 5px;
+    color: #a7a1a68f;
+ }
 
 input#salario {
     margin-left: 555px; 
@@ -84,4 +98,13 @@ input{
 
 input[type='number'] {
     text-align: center;
+}
+
+label, input {
+    vertical-align: middle;
+}
+
+button:hover{
+    background-color: rgba(25, 156, 156, 0.61);
+    transition: 0.1s;
 }
